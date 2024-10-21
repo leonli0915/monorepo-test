@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "https://github.com/leonli0915/monorepo-test.git",
+  "repository": "git@github.com:leonli0915/monorepo-test.git",
+  "origin": "git@github.com:leonli0915/monorepo-test.git",
   "author": "leonli0915 <lifang0915@126.com>",
   "license": "MIT",
   "scripts": {
