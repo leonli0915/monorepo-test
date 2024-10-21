@@ -1,0 +1,9 @@
+
+
+> @frontend-dev-cli/core@0.0.0 build /Users/leonli/Desktop/workspace/monorepo-test/packages/core
+> tsc --watch
+
+[2J[3J[H[[90m14:34:31[0m] Starting compilation in watch mode...
+
+[[90m14:34:35[0m] Found 0 errors. Watching for file changes.
+

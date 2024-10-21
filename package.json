@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/leonli0915/monorepo-test.git",
+  "author": "leonli0915 <lifang0915@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "lerna-init": "lerna init",
+    "lerna-create-package": "lerna create",
+    "build": "turbo run build",
+    "publish": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "packageManager": "pnpm@9.1.0",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "lerna": "^8.1.8",
+    "turbo": "^2.2.1",
+    "typescript": "^5.6.3"
+  }
+}

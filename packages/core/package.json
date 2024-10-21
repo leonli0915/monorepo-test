@@ -1,0 +1,29 @@
+{
+  "name": "@frontend-dev-cli/core",
+  "version": "0.0.0",
+  "description": "cli核心包",
+  "author": "leonli0915 <lifang0915@126.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "exports": {
+    ".": "./build/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "scripts": {
+    "build": "tsc --watch",
+    "test": "node ./__tests__/@frontend-dev-cli/core.test.js"
+  },
+  "dependencies": {
+    "utils": "^0.3.1"
+  }
+}
